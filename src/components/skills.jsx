@@ -25,7 +25,7 @@ const iconVariants = (duration) => ({
 const skills = () => {
   return (
     <div className='border-b border-neutral-800 pb-24'>
-      <h2 className='my-20 text-center text-4xl font-light'>Skills</h2>
+      <h2 className='my-20 text-center text-5xl font-light'>Skills</h2>
       <div className='flex flex-wrap items-center justify-center gap-5'>
         <motion.div
         variants={iconVariants(2.5)} 
