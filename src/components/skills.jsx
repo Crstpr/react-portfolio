@@ -7,7 +7,9 @@ import { RiJavaLine } from 'react-icons/ri'
 import { SiMysql } from 'react-icons/si'
 import { RiJavascriptLine } from 'react-icons/ri'
 import { SiFigma } from 'react-icons/si'
+import { RiGithubLine } from 'react-icons/ri'
 import { motion } from "framer-motion"
+
 
 const iconVariants = (duration) => ({
     initial: {y: -7},
@@ -97,6 +99,14 @@ const skills = () => {
         animate="animate" 
         className='rounded-xl border-2 border-neutral-700 p-4'>
             <SiFigma className='text-4xl text-white'/>
+        </motion.div>
+
+        <motion.div         
+        variants={iconVariants(2.5)} 
+        initial="initial" 
+        animate="animate" 
+        className='rounded-xl border-2 border-neutral-700 p-4'>
+            <RiGithubLine className='text-4xl text-white'/>
         </motion.div>
       </div>
     </div>
