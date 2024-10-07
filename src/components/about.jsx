@@ -22,9 +22,9 @@ const about = () => {
                         Currently, I am actively seeking internships where I can contribute to meaningful work while learning from industry professionals. I thrive in environments that challenge me to continuously grow and innovate. I'm particularly interested in software development, system design, and working on cutting-edge technologies that shape the future of tech.
                     </p>
                 </div>
-                <div>
+                <div className='text-white'>
                 <a href={cv} download>
-                <button className='pb-10 text-white'>Download My CV</button>
+                <button className='pb-10'>Download My CV</button>
                 </a>
                 </div>
                 </div>
