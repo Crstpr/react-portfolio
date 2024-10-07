@@ -24,7 +24,7 @@ const about = () => {
                 </div>
                 <div>
                 <a href={cv} download>
-                <button className='pb-10'>Download My CV</button>
+                <button className='pb-10 text-white'>Download My CV</button>
                 </a>
                 </div>
                 </div>
