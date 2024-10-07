@@ -1,4 +1,5 @@
 import aboutphoto from '../assets/aboutpic.jpg'
+import cv from '../assets/JamesCV.pdf'
 
 const about = () => {
   return (
@@ -20,9 +21,14 @@ const about = () => {
                         <br />
                         Currently, I am actively seeking internships where I can contribute to meaningful work while learning from industry professionals. I thrive in environments that challenge me to continuously grow and innovate. I'm particularly interested in software development, system design, and working on cutting-edge technologies that shape the future of tech.
                     </p>
-                    
+                </div>
+                <div>
+                <a href={cv} download>
+                <button className='pb-10'>Download My CV</button>
+                </a>
                 </div>
                 </div>
+
         </div>
       
     </div>
