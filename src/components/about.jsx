@@ -1,5 +1,5 @@
 import aboutphoto from '../assets/aboutpic.jpg'
-import cv from '../assets/JamesCV.pdf'
+import cv from '../assets/CV-JamesChristopherDharmadi.pdf'
 
 const about = () => {
   return (
